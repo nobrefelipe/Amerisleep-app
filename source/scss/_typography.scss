@@ -1,0 +1,59 @@
+body{
+  font-family: "Sofia Pro", "Helvetica Neue";
+}
+
+h1{
+  float: left;
+  width: 100%;
+
+  color: $blue;
+
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 52px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+p{
+  float: left;
+  width: 100%;
+
+  color: #686A6E;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 27px;
+}
+
+
+h2{
+
+  color: $blue;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 31px;
+
+}
+
+
+h3{
+
+  color: $blue;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 22px;
+  margin: 0;
+
+}
+
+h4{
+
+  color: $blue;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 8px;
+
+}

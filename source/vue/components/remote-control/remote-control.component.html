@@ -1,0 +1,30 @@
+<section class="remote-control view">
+
+    <!-- BACK -->
+    <back></back>
+
+
+    <div class="main-block">
+
+        <h1>REMOTE CONTROL</h1>
+
+        <ul class="content">
+
+            <!-- DATA IS LOADED FROM VUE STORE-->
+            <li v-for="item in remoteFeatures">
+                <h4>{{ item.title }}</h4>
+                <p>{{ item.description }}</p>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <img src="media/images/amerisleep_adjustable-bed-remote.png" v-slide-from-right="'40px'" class="product-image">
+
+   <!--<transition :name="'slide-from-right'">-->
+       <!--<img src="media/images/amerisleep_adjustable-bed-remote.png" class="product-image">-->
+   <!--</transition>-->
+
+</section>
+

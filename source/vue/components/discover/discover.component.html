@@ -1,0 +1,48 @@
+<section class="discover-component view">
+
+    <!-- BACK -->
+    <back></back>
+
+    <!-- RADAR BUTTON -->
+    <button-radar :to="'/features'" :label="'Explore the features'" v-pop-in="200"></button-radar>
+
+
+    <div class="main-block">
+
+       <h1>AMERISLEEP<br>ADJUSTABLE BED</h1>
+
+       <p>
+           You’re going to fall asleep quicker than ever with the Amerisleep Adjustable Bed.
+           As you raise your head and foot position, you’ll feel your stress and pressure points relieved.
+           To relax even further, turn on the dual wave massage and experience a tailored sleeping experience.
+       </p>
+
+    </div>
+
+
+    <!-- DROP DOWN WILL LOAD DATA FROM THE VUE STORE -->
+    <div class="dropdown-area">
+
+        <h4>Select a size</h4>
+
+        <div class="dropdown" @click="onClick($event)">
+
+            <div class="dropdown-item selected">
+                <span>{{ selectedItem.name }} <i>({{ selectedItem.size }})</i></span>
+            </div>
+
+            <div v-for="(item, index) of sizes" class="dropdown-item" @click="onSelect(index)">
+                <span>{{ item.name }} <i>({{ item.size }})</i></span>
+            </div>
+
+        </div>
+
+        <h2>${{ price }}</h2>
+
+    </div>
+
+
+    <img src="media/images/amerisleep-adjustable-split.png" v-slide-up class="product-image">
+
+
+</section>

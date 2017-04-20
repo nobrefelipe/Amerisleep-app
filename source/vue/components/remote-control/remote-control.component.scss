@@ -1,0 +1,48 @@
+.remote-control {
+
+  padding-top: 112px;
+  align-items: flex-start;
+
+  h1{
+    text-align: left;
+    margin-bottom: 67px;
+  }
+
+
+  .product-image{
+    position: absolute;
+    right: -160px;
+    top:70px;
+
+    width: 580px;
+  }
+
+  .main-block{
+
+    max-width: 760px;
+
+    .content{
+
+      li{
+        float:left;
+        break-inside: avoid;
+        margin-bottom: 27px;
+      }
+
+      float: left;
+      width: 100%;
+
+      column-count: 2;
+      column-gap: 30px;
+
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      h4,p{ margin: 0;}
+
+    }
+
+  }
+
+}

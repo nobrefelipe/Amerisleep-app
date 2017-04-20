@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Amerisleep Store App</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+
+
+    <div id="app">
+
+      <transition mode="out-in" :name="'fade'">
+
+        <!--
+          Passing the the route name in Key parameter
+          so we have transitions on dynamic components
+         -->
+        <router-view :key="$route.name"></router-view>
+
+      </transition>
+
+    </div>
+
+    <script src="dist/js/all.min.js"></script>
+    <script src="dist/build.js"></script>
+
+  </body>
+
+</html>
+
+

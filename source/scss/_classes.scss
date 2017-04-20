@@ -1,0 +1,19 @@
+
+.blue{
+  color: $blue;
+}
+
+
+.scaleDown{
+  opacity: 0;
+  transform: scale(0.4);
+}
+
+.top, .left, .bottom, .right{position: absolute !important;}
+.top{top: 90px !important;}
+.left{left: 38px !important;}
+.bottom{bottom: 50px !important;}
+.right{right: 50px !important;}
+.center{top: 50% !important; transform: translateY(-50%)}
+
+

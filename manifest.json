@@ -1,0 +1,16 @@
+{
+  "name": "AMERISLEEP",
+  "short_name": "AMERISLEEP",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "Amerisleep touching devices app",
+  "orientation": "landscape",
+
+  "icons": [{
+    "src": "media/icons/logo.png",
+    "sizes": "300x300",
+    "type": "image/png"
+  }]
+
+}

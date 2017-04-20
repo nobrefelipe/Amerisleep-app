@@ -1,0 +1,127 @@
+.dropdown-area{
+
+  position: absolute;
+  top: 240px;
+  right: 96px;
+  z-index: 999;
+
+  width: 290px;
+  height: 150px;
+
+  h2{
+    margin-top: 90px;
+  }
+
+  .dropdown{
+
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+
+    float: left;
+    width: 290px;
+    background-color: #E9F2F7;
+    border-radius: 7px;
+    border: 1px solid #E9F2F7;
+    box-shadow: 0 20px 18px -15px rgba(0,51,141,0.3);
+    transition: all .5s ease-in;
+
+    &.opened{
+
+      //INVERT ARROW
+      &:after{
+        transform: rotate(90deg)  rotateY(180deg) translateX(8px);
+      }
+
+      .dropdown-item{
+        opacity: 1;
+        height: 50px;
+        transition:
+              height .5s cubic-bezier(.42,.76,.12,1.81),
+              opacity .3s ease-in .2s,
+              background .3s ease;
+      }
+
+    }
+
+    //ARROW
+    &:after{
+
+      position: absolute;
+      right: 25px;
+      top: 20px;
+      z-index: 10;
+
+      content: '';
+      width: 20px;
+      height: 20px;
+      background-image: url("media/icons/arrow.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      transform: rotate(90deg);
+
+      transition: all .3s ease-in;
+      transform-origin: center;
+    }
+
+
+    &-item{
+
+      display: flex;
+      align-items: center;
+      padding: 0 25px;
+
+      color: #00338D;
+      overflow: hidden;
+
+      transition:
+              opacity .6s ease-in,
+              height .3s ease-in .2s;
+
+
+      &:not(.selected){
+        height: 0;
+        opacity: 0;
+
+        &:hover{
+          background: rgba(0,0,0,0.04);
+        }
+      }
+
+      &.selected{
+
+        height: 50px;
+
+        span{
+          font-size: 24px;
+          font-weight: bold;
+        }
+
+      }//selected
+
+      span{
+
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 22px;
+        margin-right: 10px;
+
+        i{
+
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 22px;
+          font-style: normal;
+
+        }
+
+      }
+
+    }//dropdown-item
+
+  }//dropdown
+
+
+}

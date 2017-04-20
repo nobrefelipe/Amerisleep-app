@@ -1,0 +1,34 @@
+<section class="features view">
+
+    <!-- BACK -->
+    <back></back>
+
+    <!-- RADAR BUTTON -->
+    <button-radar :to="'/remote-control'" :label="'remote control'" v-pop-in="200"></button-radar>
+
+
+    <h1>EXPLORE THE FEATURES</h1>
+    <p>Press an active point on the bed frame to know more</p>
+    <img src="media/images/amerisleep_adjustable-bed-side.png" v-slide-up class="product-image">
+
+
+
+    <!--
+        EXPAND DETAILS COMPONENT
+        will repeat for each 'feature' found on the state
+
+        needs to position it manually on 'features.component.scss' by using the unique class [item.id]
+    -->
+    <expand-details v-for="item in features" :class="item.id" :size="item.size"  v-pop-in="item.delay" :key="item.id">
+
+        <slot>
+
+            <h3>{{ item.name }}</h3>
+
+            <p v-html="item.description"></p>
+
+        </slot>
+
+    </expand-details>
+
+</section>

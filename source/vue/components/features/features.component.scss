@@ -1,0 +1,55 @@
+.features {
+
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding-top: 112px;
+
+  h1, p{
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  p{
+    color: #3B5C97;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 31px;
+    margin: 0;
+  }
+
+  .discover{
+
+    position: absolute;
+    top: 56px;
+    right: 96px;
+
+  }
+
+
+  .product-image{
+
+    position: absolute;
+    bottom: -50px;
+    width: 917px;
+
+  }
+
+
+  .expand-details{
+    position: absolute;
+    z-index: 1000;;
+  }
+
+  .dual-fullbody{
+    bottom:39vh;
+    left: 30vw;
+  }
+
+  .controls{
+    bottom:20vh;
+    left: 32vw;
+  }
+
+}

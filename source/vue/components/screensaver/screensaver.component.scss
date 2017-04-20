@@ -1,0 +1,21 @@
+.screensaver {
+
+  background: radial-gradient(circle, #CEDEEA 0%, #C3D7E6 42.5%, #9EC3DE 100%);
+
+  h1{
+    position: absolute;
+    top: 140px;
+    left: 103px;
+    z-index: 100;
+
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+    animation-delay: 2s;
+
+  }
+
+}
