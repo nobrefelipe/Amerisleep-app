@@ -6,14 +6,13 @@ Web app developed for Amerisleep Stores, so the customers can browse their produ
 
 
 
-
 ## See it working
 
 Download the code and open the ``` index.html``` 
 
 
 
-## Build Setup
+## Build Setup [vue.js]
 
 ``` bash
 # install dependencies
