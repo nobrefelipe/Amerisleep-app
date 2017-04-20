@@ -1,6 +1,6 @@
 # Amerisleep Touching App 
 
-###Bed frame app
+###### Bed frame app
 
 Web app developed for Amerisleep Stores, so the customers can browse their products in the local store
 
