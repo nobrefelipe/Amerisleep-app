@@ -1,6 +1,6 @@
 .screensaver {
 
-  background: radial-gradient(circle, #CEDEEA 0%, #C3D7E6 42.5%, #9EC3DE 100%);
+  background: url("/media/images/amerisleep_adjustable-bed.jpg");
 
   h1{
     position: absolute;
@@ -16,6 +16,12 @@
     animation: fadeIn 1s ease-in forwards;
     animation-delay: 2s;
 
+  }
+
+  .discover{
+    position: absolute;
+    top: 400px;
+    right: 107px;
   }
 
 }

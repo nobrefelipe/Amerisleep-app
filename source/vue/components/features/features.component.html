@@ -9,26 +9,32 @@
 
     <h1>EXPLORE THE FEATURES</h1>
     <p>Press an active point on the bed frame to know more</p>
-    <img src="media/images/amerisleep_adjustable-bed-side.png" v-slide-up class="product-image">
+
+    <div v-slide-up class="product-image">
+
+        <img src="media/images/amerisleep_adjustable-bed-side.png">
 
 
 
-    <!--
-        EXPAND DETAILS COMPONENT
-        will repeat for each 'feature' found on the state
+        <!--
+            EXPAND DETAILS COMPONENT
+            will repeat for each 'feature' found on the state
 
-        needs to position it manually on 'features.component.scss' by using the unique class [item.id]
-    -->
-    <expand-details v-for="item in features" :class="item.id" :size="item.size"  v-pop-in="item.delay" :key="item.id">
+            needs to position it manually on 'features.component.scss' by using the unique class [item.id]
+        -->
+        <expand-details v-for="item in features" :class="item.id" :size="item.size"  v-pop-in="item.delay" :key="item.id">
 
-        <slot>
+            <slot>
 
-            <h3>{{ item.name }}</h3>
+                <h3>{{ item.name }}</h3>
 
-            <p v-html="item.description"></p>
+                <p v-html="item.description"></p>
 
-        </slot>
+            </slot>
 
-    </expand-details>
+        </expand-details>
+
+    </div>
+
 
 </section>

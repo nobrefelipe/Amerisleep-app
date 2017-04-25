@@ -6,7 +6,7 @@
 
     <div class="button"  v-pop-in="800" @touchstart="onTouchStart($event)" @touchend="onTouchEnd($event)">
 
-      <img src="media/icons/arrow.png" />
+      <img src="media/icons/arrow.svg" />
 
     </div>
 
@@ -89,8 +89,8 @@
       box-shadow: 0 10px 10px -4px rgba(0, 51, 141, 0.2);
 
       img {
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
         transform: rotate(-180deg);
       }
 

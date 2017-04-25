@@ -111,8 +111,8 @@
             box-shadow: 0 10px 10px -4px rgba(0, 51, 141, 0.2);
 
             img {
-                width: 20px;
-                height: 20px;
+                width: 15px;
+                height: 15px;
             }
 
             //WHEN TOUCHING LETS SCALE IT DOWN, [press effect]
