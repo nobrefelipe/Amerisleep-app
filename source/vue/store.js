@@ -63,7 +63,7 @@ export default new Vuex.Store({
             },
 
             {
-                id: 'item03',
+                id: 'item03 reverse',
                 name: "MicroHook™ retention system",
                 description: "The retention system keeps your mattress from slipping<br>as you adjust the base up and down, removing the need for a retainer bar at the foot of the bed",
                 delay: 1100,

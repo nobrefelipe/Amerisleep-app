@@ -21,13 +21,6 @@ export default  {
       features: this.$store.state.features
 
     }
-  },
-
-  mounted(){
-
-    let item03 = document.querySelector('.item03')[0];
-    item03.classList.add('reverse');
-
   }
 
 }

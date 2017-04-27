@@ -187,6 +187,7 @@
             border-left: 1px solid #fff;
             overflow: hidden;
             height: 0;
+            width: 700px;
 
             transition: all .3s ease-in .3s; // vertical line out animation, wait .3s
 
@@ -241,6 +242,31 @@
             div{
                 transition: all .2s ease; // fade out animation
                 opacity: 0;
+            }
+
+        }
+
+
+        /* REVERSE DETAILS POSITION - to left side*/
+        &.reverse{
+
+            .details{
+
+                transform: translateX(-100%);
+                border-left: 0;
+                border-right: 1px solid #fff;
+                padding-left: 0;
+                padding-right: 70px;
+
+                &:before{
+                    right: 0;
+                    left: unset;
+                }
+
+                h3,p{
+                    text-align: right;
+                }
+
             }
 
         }
