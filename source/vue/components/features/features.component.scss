@@ -31,8 +31,8 @@
   .product-image{
 
     position: absolute;
-    bottom: -50px;
-    width: 917px;
+    bottom: -100px;
+    width: 1400px;
 
     img{
       width: 100%;
@@ -43,17 +43,27 @@
 
   .expand-details{
     position: absolute;
-    z-index: 1000;;
+    z-index: 1000;
   }
 
-  .dual-fullbody{
-    bottom: 400px;
-    left: 170px;
+  .item01{
+    bottom: 90%;
+    left: 17%;
   }
 
-  .controls{
-    bottom: 210px;
-    left: 200px;
+  .item02{
+    bottom: 47%;
+    left: 22%;
+  }
+
+  .item03{
+    bottom: 85%;
+    left: 72%;
+  }
+
+  .item04{
+    bottom: 34%;
+    left: 47%;
   }
 
 }

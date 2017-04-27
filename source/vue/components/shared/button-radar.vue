@@ -81,6 +81,7 @@
             text-transform: uppercase;
             font-weight: bold;
             font-size: 18px;
+            font-family: 'sofiapro-bold';
 
             transition: all .5s ease-out;
 

@@ -47,53 +47,59 @@ export default new Vuex.Store({
         features: [
 
             {
-                id: 'dual-fullbody',
-                name: "Dual, Full body wave massage",
-                description: "The fully adjustable, dual wave massage offers variable<br> intensity for extreme relaxation from head to toe.",
+                id: 'item01',
+                name: "Dual, full body wave massage",
+                description: "The fully adjustable, dual wave massage offers variable intensity<br>for extreme relaxation from head to toe.",
                 delay: 500,
                 size: '180px'
             },
 
             {
-                id: 'controls',
-                name: "Controls",
-                description: "The fully adjustable, dual wave massage offers variable<br> intensity for extreme relaxation from head to toe.",
+                id: 'item02',
+                name: "USB port system",
+                description: "Located on either side of the base are two 4-port USB hubs,<br>allowing you to charge up to eight USB devices from the comfort of your bed.",
                 delay: 800,
                 size: '380px'
+            },
+
+            {
+                id: 'item03',
+                name: "MicroHook™ retention system",
+                description: "The retention system keeps your mattress from slipping<br>as you adjust the base up and down, removing the need for a retainer bar at the foot of the bed",
+                delay: 1100,
+                size: '180px'
+            },
+
+            {
+                id: 'item04',
+                name: "Under-bed lighting",
+                description: "Multi-directional under-bed lighting is fully dimmable,<br>providing both ambience and functionality.",
+                delay: 1400,
+                size: '520px'
             }
         ],
 
         remoteFeatures: [
 
             {
-                title: 'Capacitive-touch remote control',
-                description: 'Programmable control at your finger tips.'
+                title: 'Programmable remote control',
+                description: 'Touch-sensitive control, at your fingertips.'
             },
 
             {
-                title: 'Full massage function',
-                description: 'Incorporating wave technology for head to toe relaxation.'
-            },
-
-            {
-                title: 'Android and iOS App controls',
-                description: 'Unrivalled connectivity and control.'
-            },
-
-            {
-                title: 'USB Ports',
-                description: 'Charge up to eight USB devices'
-            },
-
-            {
-                title: 'Under bed lighting',
-                description: 'Ambient and Functional illumination'
+                title: 'Android and iOS app control',
+                description: 'Compatible with mobile devices, for unrivalled connectivity.'
             },
 
             {
                 title: 'Wallhugger® engineering',
-                description: 'Lift and glide technology allows perfect positioning of your bed next to your nightstand.'
+                description: 'Unrivalled connectivity and control.'
             },
+
+            // {
+            //     title: 'USB Ports',
+            //     description: 'Lift and glide technology, for perfect positioning of your bed next to your nightstand.'
+            // },
 
             {
                 title: 'Pillow tilt articulation',
@@ -101,9 +107,9 @@ export default new Vuex.Store({
             },
 
             {
-                title: 'Twenty Year Warranty',
-                description: 'Protecting your investment and comfort for peace of mind'
-            },
+                title: 'Twenty year warranty',
+                description: 'Protecting your investment and giving you total peace of mind.'
+            }
 
         ]
 

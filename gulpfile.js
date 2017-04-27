@@ -40,7 +40,7 @@ var gulp = require('gulp'),
   gulp.task('webserver', function() {
     return gulp.src('./')
     .pipe(webserver({
-        port: 1010,
+        port: 8080,
         livereload: true,
         open: true,
         fallback: './index.html'

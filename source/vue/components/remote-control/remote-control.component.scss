@@ -2,6 +2,7 @@
 
   padding-top: 112px;
   align-items: flex-start;
+  justify-content: flex-start;
 
   h1{
     text-align: left;
@@ -11,15 +12,18 @@
 
   .product-image{
     position: absolute;
-    right: -160px;
+    right: -93px;
     top:70px;
 
-    width: 580px;
+    width: 770px;
   }
 
   .main-block{
 
     max-width: 760px;
+    margin-left: 388px;
+
+
 
     .content{
 

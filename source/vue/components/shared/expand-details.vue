@@ -19,7 +19,7 @@
            @touchend="onTouchEnd($event)"
            @blur="onBlur($event)">
 
-          <span><img src="/media/icons/plus.png"></span>
+          <span><img src="media/icons/plus.png"></span>
 
       </div>
 
@@ -134,8 +134,11 @@
             span{
                 transition: all .3s ease-in;
                 transform-origin: 57% 40%;
+                width: 20px;
+                height: 20px;
                 img{
-                    width: 12px;
+                    width: 20px;
+                    height: 20px;
                 }
             }
 
