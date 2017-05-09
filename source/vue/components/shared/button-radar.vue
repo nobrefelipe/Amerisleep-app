@@ -4,9 +4,7 @@
 
       <span class="button-label">{{ label }}</span>
 
-      <div class="button"
-           @touchstart="onTouchStart($event)"
-           @touchend="onTouchEnd($event)">
+      <div class="button" @touchstart="onTouchStart($event)" @touchend="onTouchEnd($event)">
 
           <img src="media/icons/arrow.svg" />
 
