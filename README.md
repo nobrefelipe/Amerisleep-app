@@ -1,12 +1,13 @@
 # Amerisleep Touching App 
 
-> this is a work in progress, I am experimenting different approaches on different things. Will be updated with a final release
 
-###### Bed frame app
+##### Bed frame app
 
 Web app developed for Amerisleep Stores, so the customers can browse their products at the local store
 
 
+
+> this is a work in progress, I am experimenting different approaches on different things. Will be updated with a final release
 
 ## See it working
 
