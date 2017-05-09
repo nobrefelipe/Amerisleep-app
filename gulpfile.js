@@ -86,8 +86,6 @@ var gulp = require('gulp'),
 */
   gulp.task('scripts', function() {
     gulp.src([
-        //paths.js.bower + '/svg4everybody/dist/svg4everybody.js',
-        // paths.js.bower + '/owl.carousel/dist/owl.carousel.min.js',
         paths.js.src + '/**/*.js'
       ])
       .pipe(plumber({
