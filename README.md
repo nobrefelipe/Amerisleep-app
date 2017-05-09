@@ -1,6 +1,6 @@
 # Amerisleep Touching App 
 
-> work in progress
+> this is a work in progress, I am experimenting different approaches on different things. Will be updated with a final release
 
 ###### Bed frame app
 
