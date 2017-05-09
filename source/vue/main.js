@@ -13,9 +13,6 @@ import features from './components/features/index.vue';
 import remoteControl from './components/remote-control/index.vue';
 
 
-/* FUNCTIONS */
-
-
 /* DIRECTIVES */
 import slideIn from './directives/slide-in.directive';
 import slideUp from './directives/slide-up.directive';
@@ -38,8 +35,10 @@ const routes = [
 ];
 
 export const router = new VueRouter({
- // mode: 'history',
+
+ // mode: 'history',  use hash navigation so we don't need a webserver running
   routes
+
 });
 
 
@@ -53,10 +52,15 @@ const app = new Vue({
   store,
 
   directives: {
-    'slide-in': slideIn,
-    'slide-up': slideUp,
-    'pop-in': popIn,
-    'slide-from-right': slideFromRight,
+
+    slideIn,
+
+    slideUp,
+
+    popIn,
+
+    slideFromRight,
+
   },
 
   mounted(){
@@ -73,9 +77,7 @@ const app = new Vue({
       // the timeout
       var mousetimeout;
 
-      // lets reinstance 'this' so we ca use within 'document'
       let vue = this;
-
 
       // always clean the timeout as soon as the user touch the screen
       document.addEventListener("touchstart", function(e){

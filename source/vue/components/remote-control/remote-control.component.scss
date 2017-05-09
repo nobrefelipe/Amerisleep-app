@@ -1,6 +1,6 @@
 .remote-control {
 
-  padding-top: 112px;
+  padding-top: 160px;
   align-items: flex-start;
   justify-content: flex-start;
 
@@ -13,7 +13,7 @@
   .product-image{
     position: absolute;
     right: -93px;
-    top:70px;
+    top:54px;
 
     width: 770px;
   }
@@ -21,7 +21,7 @@
   .main-block{
 
     max-width: 760px;
-    margin-left: 388px;
+    margin-left: 298px;
 
 
 
@@ -31,13 +31,17 @@
         float:left;
         break-inside: avoid;
         margin-bottom: 27px;
+
+        h4{
+          font-family: 'sofiapro-bold';
+        }
       }
 
       float: left;
       width: 100%;
 
       column-count: 2;
-      column-gap: 30px;
+      column-gap: 15px;
 
       margin: 0;
       padding: 0;

@@ -200,6 +200,7 @@
                 font-size: 19px;
                 font-weight: 300;
                 line-height: 28px;
+                font-family: 'sofiapro-light';
             }
 
             //horizontal line

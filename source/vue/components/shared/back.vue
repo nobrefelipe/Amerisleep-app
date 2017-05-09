@@ -50,8 +50,8 @@
 
 
     position: absolute;
-    top: 56px;
-    left: 38px;
+    top: 70px;
+    left: 70px;
     z-index: 9999;
 
 
@@ -68,6 +68,7 @@
       font-weight: bold;
       font-size: 18px;
       font-family: 'sofiapro-bold';
+      letter-spacing: 1px;
 
       opacity: 0;
 

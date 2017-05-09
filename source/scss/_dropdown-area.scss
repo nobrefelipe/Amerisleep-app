@@ -8,8 +8,16 @@
   width: 290px;
   height: 150px;
 
+  h2,h4{
+    font-family: 'sofiapro-bold';
+  }
+
   h2{
     margin-top: 90px;
+  }
+
+  h4{
+    font-size: 18px;
   }
 
   .dropdown{
@@ -96,7 +104,7 @@
 
         span{
           font-size: 24px;
-          font-weight: bold;
+          font-family: 'sofiapro-bold';
         }
 
       }//selected
@@ -106,14 +114,17 @@
         font-size: 20px;
         font-weight: 300;
         line-height: 22px;
-        margin-right: 10px;
+        font-family: 'sofiapro-light';
 
         i{
 
+          position: relative;
+          top: -2px;
           font-size: 14px;
           font-weight: 300;
-          line-height: 22px;
           font-style: normal;
+          margin-left: 10px;
+          font-family: 'sofiapro-light';
 
         }
 

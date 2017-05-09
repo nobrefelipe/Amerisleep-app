@@ -10,22 +10,17 @@ export default new Vuex.Store({
         sizes: [
 
             {
-                name: "Twin",
-                size: "60\" x 75\"",
-                price : "1100"
-            },
-
-            {
                 name: "Twin XL",
-                size: "70\" x 85\"",
-                price : "1300"
+                size: "38\" x 80\"",
+                price : "1800"
             },
 
             {
                 name: "Full",
-                size: "80\" x 80\"",
-                price : "1500"
+                size: "54\" x 75\"",
+                price : "1900"
             },
+
 
             {
                 name: "Queen",
@@ -35,9 +30,9 @@ export default new Vuex.Store({
 
 
             {
-                name: "King",
-                size: "90\" x 95\"",
-                price : "2100"
+                name: "Split King",
+                size: "38\" x 80\" - 2",
+                price : "3600"
             },
 
 
@@ -59,7 +54,7 @@ export default new Vuex.Store({
                 name: "USB port system",
                 description: "Located on either side of the base are two 4-port USB hubs,<br>allowing you to charge up to eight USB devices from the comfort of your bed.",
                 delay: 800,
-                size: '380px'
+                size: '420px'
             },
 
             {
